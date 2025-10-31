@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@400;500&display=swap');
+
+/* 🌸 General */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+/* 🌈 Cover Page */
+.cover-body {
+  background: url('background.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-blend-mode: overlay;
+  background-color: rgba(255, 200, 210, 0.4);
+}
+.cover-content h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.cover-content p {
+  font-size: 1.2em;
+}
+.cover-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #fff;
+  color: #ff7a94;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cover-content button:hover {
+  background-color: #ffb6c1;
+  color: white;
+}
+
+/* 🌼 About Me */
+.about-body {
+  background: #fdf6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.about-container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.about-container h2 {
+  color: #ff7591;
+  font-family: 'Dancing Script', cursive;
+}
+.about-container p {
+  font-size: 1em;
+  margin: 15px 0;
+}
+.about-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.about-container button {
+  background-color: #ff9eb5;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.about-container button:hover {
+  background-color: #ff7591;
+}
+
+/* 🩷 Diary Pages */
+.diary-body {
+  background: #fff9fb;
+  min-height: 100vh;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+header h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #ff7591;
+}
+header p {
+  color: #666;
+}
+.page {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 25px;
+}
+.page h2 {
+  text-align: center;
+  color: #ff9eb5;
+  font-family: 'Dancing Script', cursive;
+}
+.editable {
+  min-height: 250px;
+  background: #fff9fb;
+  border: 2px dashed #ffd2dc;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  font-size: 1em;
+  transition: 0.3s;
+}
+.editable:focus {
+  border-color: #ff9eb5;
+  box-shadow: 0 0 6px rgba(255, 158, 181, 0.5);
+}
+
+/* 💾 Save Button */
+.save-btn-container {
+  text-align: center;
+  margin: 30px 0;
+}
+#saveBtn {
+  background-color: #ff9eb5;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#saveBtn:hover {
+  background-color: #ff7591;
+}
+#saveStatus {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #444;
+}
+
+/* 🔙 Back Button */
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.back-btn {
+  background-color: #ffd2dc;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #333;
+  font-weight: 500;
+}
+.back-btn:hover {
+  background-color: #ffb6c1;
+}
